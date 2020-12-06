@@ -8,7 +8,7 @@ def gcd(a, b): # Find GCD
 def RandomCurve(n): # Random X Y A for Curve
     return random.randint(0, n), random.randint(0, n), random.randint(0, n)
   
-def MiillerRabin(d, n): # Test Miller Rabin on prime number
+def MillerRabin(d, n): # Test Miller Rabin on prime number
     a = 2 + random.randint(1, n - 4)
   
     x = pow(a, d, n)
@@ -37,7 +37,4 @@ def isPrime(n): # Check on prime number
     while t % 2 == 0: 
         t //= 2
 
-    if MiillerRabin(t, n) == False: 
-        return False
-  
-    return True
+    return MillerRabin(t, n) 
