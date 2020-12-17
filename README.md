@@ -1,5 +1,5 @@
 # Computer Security Tools
-Basic computer security tools 🖥🔒
+Basic computer security tools(Number theory) 🖥🔒
 
 # Requirements
 `pip install -U -r requirements.txt`
