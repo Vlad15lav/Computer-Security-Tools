@@ -9,3 +9,4 @@ To compile a py program into an exe - `pyinstaller -w -F -i "<path icon>" main.p
 ## Factorization Lenstra
 ![](/FactorizationLenstra/app.png)
 
+## Euler function
