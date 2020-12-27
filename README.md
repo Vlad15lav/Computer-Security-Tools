@@ -2,7 +2,9 @@
 Basic Computer Security tools 🖥🔒
 
 # Requirements
-`pip install -U -r requirements.txt`
+```
+pip install -U -r requirements.txt
+```
 
 To compile a py program into an exe - `pyinstaller -w -F -i "<path icon>" main.py'`
 
